@@ -1,0 +1,29 @@
+Today is the first day of the project - 11/12/25. 
+
+My goal for today: Attach and run 2 motors from an esp 32.
+
+I will use a Breadboard, Esp 32, 2 stepper motors, Motor driver, joystick and a DC output power machine as power.
+Parts:
+    ESP 32
+    L298N motor driver
+    2 stepper motors 
+    A joystick.
+
+
+A tutorial to connect a motor to ESP 32 and motor driver:
+https://www.youtube.com/watch?v=E2raPpB2aJ0
+
+ESP 32 pin guide:
+https://esp32.implrust.com/esp32-intro/pinout.html
+
+Tutorial to connect Joystick to ESP 32:
+https://www.youtube.com/watch?v=yGU9-jSJi9M
+
+The Code I used to test the joystick in under the Code/Stage 1 Folder in Joystick_Test.ino. It had the code to move the motor as well.
+Currently The motor moves but only in one direction, so I don't think the code working. Neither do I see the Joystick positions 
+in the terminal of the Arduion IDE. I have the joystick and the motor driver wired to the ESP 32 and for now only 1 motor. 
+
+Probelems to fix for Day 2:
+    Make live stats appear on Arduino IDE terminal. 
+    Control motor direction with Joystick Y axis. 
+
